@@ -1,9 +1,7 @@
 #!/usr/bin/perl
 #
-# Last edit: 7-May-15
 # Author: Tyler K. Chafin - tkchafin@uark.edu
 # Algorithmic improvements by Steve M. Mussmann and Bradley T. Martin
-# Title: fragsim.pl 
 # This script was developed to provide a means to digest genomic DNA 
 # sequences in silico.
 #
@@ -399,7 +397,8 @@ if ($tables == 0){
 }
 
 
-print "...\n\nIn silico digest complete\n\n"; 
+print "...\n\nIn silico digest complete\n\n";
+print "\n\nIf you found this useful and use it in your research, please cite: TK Chafin, BT Martin, SM Mussmann, MR Douglas, ME Douglas. 2018. FRAGMATIC: in silico locus prediction and its utility in optimizing ddRADseq projects. Conservation Genetics Resources 10 (3), 325-328\n\n" 
 exit;  
 
 #################################################################################
@@ -421,13 +420,11 @@ Script: fragmatic.pl
 
 Primary Author: Tyler K. Chafin - tkchafin\@uark.edu
 
-Last Modified: 29 Jul 16
-
 This script was created to simulate the digestion/ fragmentation of genomic DNA sequences with restriction enzymes as would be used in library preparation for a RAD-type reduced-representation genomic approach. It currently supposrts an indeterminate number of restriction enzymes, as well as degeneracy in restriction sites. 
 
+CITATION: TK Chafin, BT Martin, SM Mussmann, MR Douglas, ME Douglas. 2018. FRAGMATIC: in silico locus prediction and its utility in optimizing ddRADseq projects. Conservation Genetics Resources 10 (3), 325-328
 
 USAGE: $0 -i /path/to/fasta_file( -r \"G^AATTC C^CGG...\" [-o /home/out][-t][-f][-m][-p]  
-
 
 Mandatory Arguments
 	-i	- String. Path to input FASTA file containing your genome [E.g. /home/genome.fasta] 
