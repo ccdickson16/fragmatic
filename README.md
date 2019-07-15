@@ -4,6 +4,7 @@ Simple program for in silico restriction digest of genomic sequences, to simulat
 Author: Tyler K. Chafin
 Contact: tkchafin@uark.edu
 
+If you use this please cite: TK Chafin, BT Martin, SM Mussmann, MR Douglas, ME Douglas. 2018. FRAGMATIC: in silico locus prediction and its utility in optimizing ddRADseq projects. Conservation Genetics Resources 10 (3), 325-328
 
 ## -------------------------
 
