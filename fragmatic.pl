@@ -398,7 +398,7 @@ if ($tables == 0){
 
 
 print "...\n\nIn silico digest complete\n\n";
-print "\n\nIf you found this useful and use it in your research, please cite: TK Chafin, BT Martin, SM Mussmann, MR Douglas, ME Douglas. 2018. FRAGMATIC: in silico locus prediction and its utility in optimizing ddRADseq projects. Conservation Genetics Resources 10 (3), 325-328\n\n" 
+print "\n\nIf you found this useful and use it in your research, please cite: TK Chafin, BT Martin, SM Mussmann, MR Douglas, ME Douglas. 2018. FRAGMATIC: in silico locus prediction and its utility in optimizing ddRADseq projects. Conservation Genetics Resources 10 (3), 325-328\n\n"; 
 exit;  
 
 #################################################################################
